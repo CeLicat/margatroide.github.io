@@ -1,0 +1,91 @@
+<!DOCTYPE html><html lang="zh-Hans"><head><meta name="generator" content="Hexo 3.8.0"><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta name="description" content="チュートリアル"><meta name="keywords" content=""><meta name="author" content="KyAa,undefined"><meta name="copyright" content="KyAa"><title>チュートリアル | KyAa's Blog</title><link rel="shortcut icon" href="/img/favicon.ico"><link rel="stylesheet" href="/css/index.css?version=1.5.6"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css?version=1.5.6"><link rel="dns-prefetch" href="https://cdn.staticfile.org"><link rel="dns-prefetch" href="https://cdn.bootcss.com"><link rel="dns-prefetch" href="https://creativecommons.org"><link rel="dns-prefetch" href="https://www.google-analytics.com"><script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-130291733-1', 'auto');
+ga('send', 'pageview');</script><script>var GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  }
+} </script></head><body><canvas class="fireworks"></canvas><i class="fa fa-arrow-right" id="toggle-sidebar" aria-hidden="true"></i><div id="sidebar"><div class="toggle-sidebar-info text-center"><span data-toggle="切换文章详情">切换站点概览</span><hr></div><div class="sidebar-toc"><div class="sidebar-toc__title">目录</div><div class="sidebar-toc__progress"><span class="progress-notice">你已经读了</span><span class="progress-num">0</span><span class="progress-percentage">%</span><div class="sidebar-toc__progress-bar"></div></div><div class="sidebar-toc__content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#格子机场自签名证书安装教程"><span class="toc-number">1.</span> <span class="toc-text">格子机场自签名证书安装教程</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#说明"><span class="toc-number">1.1.</span> <span class="toc-text">说明</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#更换自签名证书有什么好处"><span class="toc-number">1.2.</span> <span class="toc-text">更换自签名证书有什么好处</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#本篇教程中包含的平台"><span class="toc-number">1.3.</span> <span class="toc-text">本篇教程中包含的平台</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#证书下载链接"><span class="toc-number">1.4.</span> <span class="toc-text">证书下载链接</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Tutorial"><span class="toc-number">1.5.</span> <span class="toc-text">Tutorial</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#如何直观的知道证书是否安装并信任成功？"><span class="toc-number">1.6.</span> <span class="toc-text">如何直观的知道证书是否安装并信任成功？</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Firefoxを使ったお客様へ"><span class="toc-number">1.7.</span> <span class="toc-text">Firefoxを使ったお客様へ</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#联系我们"><span class="toc-number">1.8.</span> <span class="toc-text">联系我们</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#我就直说了，Linux版先咕咕了（反正估计没人用）以后有空可能还会更新"><span class="toc-number">1.8.0.1.</span> <span class="toc-text">我就直说了，Linux版先咕咕了（反正估计没人用）以后有空可能还会更新</span></a></li></ol></li></ol></li></ol></div></div><div class="author-info hide"><div class="author-info__avatar text-center"><img src="/img/avatar.png"></div><div class="author-info__name text-center">KyAa</div><div class="author-info__description text-center">KyAaAaAaAaA!</div><div class="follow-button"><a href="https://twitter.com/Margatoride" target="_blank">&gt;///////&lt;</a></div><hr><div class="author-info-articles"><a class="author-info-articles__archives article-meta" href="/archives"><span class="pull-left">文章</span><span class="pull-right">2</span></a></div><hr><div class="author-info-links"><div class="author-info-links__title text-center">フレンド</div><a class="author-info-links__name text-center" href="https://github.com/aiyahacke" target="_blank">Aiyahacke</a></div></div></div><div id="content-outer"><div class="plain" id="top-container"><div id="page-header"><span class="pull-left"> <a id="site-name" href="/">KyAa's Blog</a></span><i class="fa fa-bars toggle-menu pull-right" aria-hidden="true"></i><span class="pull-right menus"><a class="site-page" href="/">Home</a><a class="site-page" href="/archives">Archives</a><a class="site-page" href="/tags">Tags</a><a class="site-page" href="/categories">Categories</a></span></div></div><div class="layout" id="content-inner"><article id="post"><div class="plain" id="post-title">チュートリアル</div><div id="post-meta"><time class="post-meta__date"><i class="fa fa-calendar" aria-hidden="true"></i> 2019-09-02</time><span class="post-meta__separator">|</span><i class="fa fa-comment-o" aria-hidden="true"></i><a href="/2019/09/02/チュートリアル/#disqus_thread"><span class="disqus-comment-count" data-disqus-identifier="2019/09/02/チュートリアル/"></span></a></div><div class="article-container" id="post-content"><h1 id="格子机场自签名证书安装教程"><a href="#格子机场自签名证书安装教程" class="headerlink" title="格子机场自签名证书安装教程"></a>格子机场自签名证书安装教程</h1><h2 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h2><p>此教程目的是为本机场用户提供一个持久稳定的服务，之前我们所采用的证书是从Let’s Encrypt签发的一个免费的SSL加密证书，机场是小机场，我们实在没有多余的钱来用于购买高级证书，最近也可能因为机场主的绑定ip过于频繁，导致新的节点证书不能正常签发，加之免费证书三个月需要手动重新续的特性，我们决定更换自签名证书来维持机场的稳定</p>
+<h2 id="更换自签名证书有什么好处"><a href="#更换自签名证书有什么好处" class="headerlink" title="更换自签名证书有什么好处"></a>更换自签名证书有什么好处</h2><ul>
+<li><strong>更好的稳定性</strong></li>
+<li><strong>一劳永逸的特性</strong></li>
+<li><strong>给以后的添加新节点免去不必要的麻烦</strong><a id="more"></a>
+<h2 id="本篇教程中包含的平台"><a href="#本篇教程中包含的平台" class="headerlink" title="本篇教程中包含的平台"></a>本篇教程中包含的平台</h2></li>
+<li>博主拥有的<ul>
+<li>Windows 10</li>
+<li>macOS</li>
+<li>Linux</li>
+<li>Android</li>
+<li>IOS</li>
+<li>OpenWrt</li>
+</ul>
+</li>
+</ul>
+<h2 id="证书下载链接"><a href="#证书下载链接" class="headerlink" title="证书下载链接"></a><strong><a href="http://crt.moegrid.com/" target="_blank" rel="noopener">证书下载链接</a></strong></h2><h2 id="Tutorial"><a href="#Tutorial" class="headerlink" title="Tutorial"></a>Tutorial</h2><ul>
+<li>Windows 10<ul>
+<li>打开下载好的crt证书文件<br><br><img src="https://s2.ax1x.com/2019/09/02/ni4PC8.png" alt="なんだぁ？" width="330"></li>
+<li>点击安装证书进入向导<br><br><img src="https://s2.ax1x.com/2019/09/02/ni4i8S.png" alt="なんだぁ？" width="350"></li>
+<li>进入下一步选择第二项<br><br><img src="https://s2.ax1x.com/2019/09/02/ni4kvQ.png" alt="なんだぁ？" width="350"></li>
+<li>点选图中圈出的那一项<br><br><img src="https://s2.ax1x.com/2019/09/02/ni4Euj.png" alt="なんだぁ？" width="230"></li>
+<li>在此界面请确认是否与该图一致<br><br><img src="https://s2.ax1x.com/2019/09/02/ni4VDs.png" alt="なんだぁ？" width="350"></li>
+<li>完成<br><br><img src="https://s2.ax1x.com/2019/09/02/ni4mEq.png" alt="なんだぁ？" width="150"></li>
+</ul>
+</li>
+<li><p>IOS</p>
+<ul>
+<li><p>用<strong>Safari浏览器</strong>打开上面的证书链接</p>
+</li>
+<li><p>下载完毕之后进入设置可以看到有一个下载的描述档（没有的去通用-下面的描述文件与设备管理里面找）点击右上角的安装<br><br><img src="https://s2.ax1x.com/2019/09/02/ni4nU0.png" alt="なんだぁ？" width="350"></p>
+</li>
+<li>随后进入关于本机-最下面的信任设定里面给新安装的证书打钩<br><br><img src="https://s2.ax1x.com/2019/09/02/ni4pUP.png" alt="なんだぁ？" width="350"></li>
+</ul>
+</li>
+</ul>
+<p><strong>安卓各ROM和版本间可能会有些出入，这里拿我手里的一台原版ROM的Sony Xperia Z5给演示一遍</strong></p>
+<ul>
+<li><p>Android</p>
+<ul>
+<li><p>使用任意浏览器打开上面的证书链接</p>
+</li>
+<li><p>打开证书会提示你输入设备的解锁密码<br><br><img src="https://s2.ax1x.com/2019/09/02/nihq3D.png" alt="なんだぁ？" width="300"></p>
+</li>
+<li>之后会出现这个界面，随意填写一个名字就ok，下面的选项基本默认不用动<br><br><img src="https://s2.ax1x.com/2019/09/02/nihWjJ.png" alt="なんだぁ？" width="300"></li>
+</ul>
+</li>
+<li><p>OpenWrt</p>
+<ul>
+<li>下载上文贴好的证书文件，连接路由器的SSH端口，传输文件的方式有多种，这里不再多述，不会还请自行百度<br><br><img src="https://s2.ax1x.com/2019/09/02/nih74K.png" alt="なんだぁ？"><br>放入路由器的/etc/ssl/certs/目录即可，但是请注意<strong>此方法并不适用于非OP固件以及Linux</strong></li>
+</ul>
+</li>
+<li>macOS<ul>
+<li>下载上文贴好的证书文件双击打开，下面的选项应选取为<strong>系统</strong><br><br><img src="https://s2.ax1x.com/2019/09/02/nihxHI.png" alt="なんだぁ？" width="430"></li>
+<li>找到刚刚安装好的证书并双击<br><br><img src="https://s2.ax1x.com/2019/09/02/nihoAx.png" alt="なんだぁ？" width="600"></li>
+<li>单击信任选项卡，把第一个选框改成<strong>始终信任</strong><br><br><img src="https://s2.ax1x.com/2019/09/02/nih4BR.png" alt="なんだぁ？" width="600"></li>
+</ul>
+</li>
+</ul>
+<h2 id="如何直观的知道证书是否安装并信任成功？"><a href="#如何直观的知道证书是否安装并信任成功？" class="headerlink" title="如何直观的知道证书是否安装并信任成功？"></a>如何直观的知道证书是否安装并信任成功？</h2><ul>
+<li>打开我们的 <strong><a href="https://v2.moegrid.com/" target="_blank" rel="noopener">网站首页</a></strong><br>能正常访问即表示成功<br><br><img src="https://s2.ax1x.com/2019/09/02/nihOjH.png" alt="なんだぁ？" width="300"></li>
+</ul>
+<h2 id="Firefoxを使ったお客様へ"><a href="#Firefoxを使ったお客様へ" class="headerlink" title="Firefoxを使ったお客様へ"></a>Firefoxを使ったお客様へ</h2><ul>
+<li>Firefoxの証明書認証やシステム自体の認証は区別されています、ホームページを開けるときは警告メッセージ出てるかもしれない、これはバグと不安全ではなくただ普通の警告です、ご心配なく、安心で使って下さい</li>
+</ul>
+<h2 id="联系我们"><a href="#联系我们" class="headerlink" title="联系我们"></a>联系我们</h2><p><a href="https://t.me/Margatroide" target="_blank" rel="noopener">Telegram</a></p>
+<h4 id="我就直说了，Linux版先咕咕了（反正估计没人用）以后有空可能还会更新"><a href="#我就直说了，Linux版先咕咕了（反正估计没人用）以后有空可能还会更新" class="headerlink" title="我就直说了，Linux版先咕咕了（反正估计没人用）以后有空可能还会更新"></a>我就直说了，Linux版先咕咕了（反正估计没人用）以后有空可能还会更新</h4></div></article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="mailto:undefined">KyAa</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="http://yoursite.com/2019/09/02/チュートリアル/">http://yoursite.com/2019/09/02/チュートリアル/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="http://yoursite.com" target="_blank">KyAa's Blog</a>！</span></div></div><div class="post-meta__tag-list"></div><div class="addthis_inline_share_toolbox pull-right"></div><script src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5c0525840d2144f4" async></script><nav id="pagination"><div class="next-post pull-right"><a href="/2018/12/03/First/"><span>初めて</span><i class="fa fa-chevron-right"></i></a></div></nav><div id="disqus_thread"></div><script>var unused = null;
+var disqus_config = function () {
+  this.page.url = 'http://yoursite.com/2019/09/02/チュートリアル/';
+  this.page.identifier = '2019/09/02/チュートリアル/';
+  this.page.title = 'チュートリアル';
+}
+var d = document, s = d.createElement('script');
+s.src = "https://" + 'KyAa' +".disqus.com/embed.js";
+s.setAttribute('data-timestamp', '' + +new Date());
+(d.head || d.body).appendChild(s);</script><script id="dsq-count-src" src="https://KyAa.disqus.com/count.js" async></script></div></div><footer><div class="layout" id="footer"><div class="copyright">&copy;2018 - 2019 By KyAa</div><div class="framework-info"><span>驱动 - </span><a href="http://hexo.io"><span>Hexo</span></a><span class="footer-separator">|</span><span>主题 - </span><a href="https://github.com/Molunerfinn/hexo-theme-melody"><span>Melody</span></a></div><div class="busuanzi"><script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script><span id="busuanzi_container_page_pv"><i class="fa fa-file-o"></i> 阅读次数<span id="busuanzi_value_page_pv"></span><span></span></span></div></div></footer><i class="fa fa-arrow-up" id="go-up" aria-hidden="true"></i><script src="/js/third-party/anime.min.js"></script><script src="/js/third-party/jquery.min.js"></script><script src="/js/third-party/jquery.fancybox.min.js"></script><script src="/js/third-party/velocity.min.js"></script><script src="/js/third-party/velocity.ui.min.js"></script><script src="/js/utils.js?version=1.5.6"></script><script src="/js/fancybox.js?version=1.5.6"></script><script src="/js/sidebar.js?version=1.5.6"></script><script src="/js/copy.js?version=1.5.6"></script><script src="/js/fireworks.js?version=1.5.6"></script><script src="/js/transition.js?version=1.5.6"></script><script src="/js/scroll.js?version=1.5.6"></script><script src="/js/head.js?version=1.5.6"></script><script src="/live2dw/lib/L2Dwidget.min.js?0c58a1486de42ac6cc1c59c7d98ae887"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"debug":false,"model":{"jsonPath":"/live2dw/assets/assets/haru02.model.json"},"display":{"position":"right","width":150,"height":300},"mobile":{"show":false},"log":false});</script></body></html>
